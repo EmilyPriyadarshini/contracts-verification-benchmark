@@ -1,0 +1,26 @@
+WARNING: 'wait_for_results' has no effect in local tool runs
+WARNING: Build cache is used with a local certora-cli script version. Beware of false hits and unexpected behaviors!
+Start Mon Feb 23 16:58:17 IST 2026
+The scene contains 1 contracts:
+Crowdfund : 0xce4604a0000000000000000000000001
+Running initial transformations
+Has CVL checks.
+Checking CVL certora/wd-not-revert-EOA.spec for contract Crowdfund
+Unrolling loops 1 time, unwinding condition is asserted
+Violated: wd_not_revert_EOA
+Error: Timed out waiting for background tasks:
+    
+Done 0m
+Compiling versions/Crowdfund_v1.sol...
+Compiling versions/Crowdfund_v1.sol to expose internal function information and local variables...
+Verifier run command:
+ java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_09_77763749e2
+ERROR: Execution of command "java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_09_77763749e2" terminated with exitcode 100.
+CRITICAL: [ForkJoinPool-1-worker-11] ERROR ALWAYS - Timed out waiting for background tasks:
+CRITICAL:     
+
+run_certora failed (code 1)
+
+
+
+Failed to create the '.certora_internal/latest' symlink. [Errno 17] File exists: '26_02_23_12_28_09_77763749e2' -> '.certora_internal/latest'

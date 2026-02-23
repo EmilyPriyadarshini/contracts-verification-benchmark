@@ -1,0 +1,21 @@
+WARNING: 'wait_for_results' has no effect in local tool runs
+WARNING: Build cache is used with a local certora-cli script version. Beware of false hits and unexpected behaviors!
+Start Mon Feb 23 16:58:57 IST 2026
+The scene contains 1 contracts:
+Crowdfund : 0xce4604a0000000000000000000000001
+Running initial transformations
+Has CVL checks.
+Checking CVL certora/no-wd-if-no-goal.spec for contract Crowdfund
+Unrolling loops 1 time, unwinding condition is asserted
+Verified: no_wd_if_no_goal
+Error: Timed out waiting for background tasks:
+    
+Done 0m
+Compiling versions/Crowdfund_v1.sol...
+Compiling versions/Crowdfund_v1.sol to expose internal function information and local variables...
+Verifier run command:
+ java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_48_710029c433
+[32mFinished running verifier:[0m
+	java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_48_710029c433
+
+

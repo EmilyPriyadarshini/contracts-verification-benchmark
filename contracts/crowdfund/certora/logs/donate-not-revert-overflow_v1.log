@@ -1,0 +1,21 @@
+WARNING: 'wait_for_results' has no effect in local tool runs
+WARNING: Build cache is used with a local certora-cli script version. Beware of false hits and unexpected behaviors!
+Start Mon Feb 23 16:58:58 IST 2026
+The scene contains 1 contracts:
+Crowdfund : 0xce4604a0000000000000000000000001
+Running initial transformations
+Has CVL checks.
+Checking CVL certora/donate-not-revert-overflow.spec for contract Crowdfund
+Unrolling loops 1 time, unwinding condition is asserted
+Verified: donate_not_revert_overflow
+Error: Timed out waiting for background tasks:
+    
+Done 0m
+Compiling versions/Crowdfund_v1.sol...
+Compiling versions/Crowdfund_v1.sol to expose internal function information and local variables...
+Verifier run command:
+ java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_51_019521b159
+[32mFinished running verifier:[0m
+	java -jar /home/emily/Projects/CertoraToolSuite/certora_build/emv.jar -ruleSanityChecks none -ciMode true -buildDirectory .certora_internal/26_02_23_12_28_51_019521b159
+
+
