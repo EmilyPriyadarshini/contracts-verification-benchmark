@@ -27,7 +27,7 @@ The contract implements the following methods:
 - **exists-unique-donation-change**: after a non-reverting `donate` transaction to the Crowdfund contract, the donation of exactly one user has changed.
 - **donate-not-dec-donation**:  after a non-reverting `donate` transaction by user A, `donation[A]` is not decreased.
 - **donation-dec-onlyif-reclaim**: if `donation[A]` decreases after a transaction (of the Crowdfund contract), then that transaction must be a `reclaim` where A is the sender.
-- **reclaim-own-funds**: after a non-reverting `reclaim`, the balance of the `msg.sender` A is increased by `donation[A]`
+- **reclaim-own-funds**: after a non-reverting `reclaim`, the balance of the `msg.sender` A is increased by `donation[A]`.
 
 
 ## Versions
