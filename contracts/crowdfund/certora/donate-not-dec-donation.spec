@@ -1,7 +1,8 @@
 
 /// donate-not-dec-donation:
-///  after a non-reverting `donate` transaction by user A,
-/// `donation[A]` is not decreased.
+/// if the donation period has not ended and
+/// there is a non-reverting `donate` transaction by user A,
+/// then `donation[A]` is not decreased.
 
 rule donate_not_dec_donation {
     env e;
