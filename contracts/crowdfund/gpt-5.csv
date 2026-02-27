@@ -1,5 +1,5 @@
 property_id,contract_id,llm_answer
-bal-decr-onlyif-wd-reclaim,1,PARSE_ERROR
+bal-decr-onlyif-wd-reclaim,1,TRUE
 donate-bal-inc,1,TRUE
 donate-not-dec-donation,1,FALSE
 donate-not-revert-overflow,1,TRUE
@@ -13,6 +13,6 @@ no-wd-if-no-goal,1,TRUE
 owner-only-recv,1,FALSE
 reclaim-not-revert,1,FALSE
 reclaim-own-funds,1,FALSE
-wd-full-balance,1,PARSE_ERROR
-wd-not-revert-EOA,1,PARSE_ERROR
+wd-full-balance,1,FALSE
+wd-not-revert-EOA,1,TRUE
 wd-not-revert,1,FALSE
