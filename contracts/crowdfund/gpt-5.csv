@@ -1,7 +1,7 @@
 property_id,contract_id,llm_answer
 bal-decr-onlyif-wd-reclaim,1,TRUE
 donate-bal-inc,1,TRUE
-donate-not-dec-donation,1,FALSE
+donate-not-dec-donation,1,TRUE
 donate-not-revert-overflow,1,TRUE
 donate-not-revert,1,TRUE
 donation-dec-onlyif-reclaim,1,TRUE
